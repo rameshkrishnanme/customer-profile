@@ -10,7 +10,7 @@
 
 	<properties>
 		<start-class>com.app.micro.customerprofile.SprintBaseRootApplication</start-class>
-		 <failOnMissingWebXml>false</failOnMissingWebXml>   
+		<failOnMissingWebXml>false</failOnMissingWebXml>
 	</properties>
 
 	<name>Micro Services - Customer Profile</name>
@@ -42,6 +42,15 @@
 			<artifactId>jackson-dataformat-xml</artifactId>
 			<version>2.8.8</version>
 		</dependency>
+
+		<dependency>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<version>1.5.3.RELEASE</version>
+			<scope>provided</scope>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
